@@ -21,6 +21,23 @@
     var h = 50;
 
     dataset = [5,10,15,20,25];
+
+    var geodata = {
+        "type": "FeatureCollection",
+        "features" : [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [150.1282427, -24.471803]
+                },
+                "properties": {
+                    "type": "town"
+                }
+            }
+        ]
+    };
+
     /* random data example
     var dataset = []; //Initialize empty array
     for (var i=0; i<25; i++) { //Loop 25 times
